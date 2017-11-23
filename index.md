@@ -5,8 +5,8 @@ learn_cmdl is a Java implementation of a score-based learning algorithm for Baye
 ## Usage 
 
 The algorithm receives a .csv file such that:
-1.the first row of each column corresponds to the name of an attribute;
-1.the other rows correspond to observations of that attribute. 
+1. the first row of each column corresponds to the name of an attribute;
+1. the other rows correspond to observations of that attribute. 
 
 By executing the following .jar file:
 ```
