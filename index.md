@@ -27,9 +27,19 @@ The  command-line options are the following:
                              output is written to file 'ouput.dot'.
 ```
 ## Example
+
+Consider the benchmarck LED data set [a relative link](led.csv) with 1000 instances.Taking the following options:
+1. CMDL as scoring function;
+1. 600 random restarts;
+1. The output file to be output_led.dot.
+
+The command to learn the optimal network is:
+
 ```
-java -jar learn_cmdl.jar led.csv MDL 10 out_led
+java -jar learn_cmdl.jar led.csv CMDL 600 out_led
 ```
+
+
 
 
 
