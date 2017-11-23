@@ -5,27 +5,35 @@ learn_cmdl is a Java implementation of a score-based learning algorithm for Baye
 ## Usage 
 
 The algorithm receives a .csv file such that:
-1. the first row of each column corresponds to the name of an attribute;
-1. the other rows correspond to observations of that attribute. 
+2. the first row of each column corresponds to the name of an attribute;
+2. the other rows correspond to observations of that attribute. 
 
 By executing the following .jar file:
 ```
 $ java -jar learn_cmdl.jar
 ```
 
-The available command-line options are the following:
+The  command-line options are the following:
 ```
--i,--inputFile <file>        Input CSV file to be used for network
+--inputFile <file>        Input CSV file to be used for network
                               learning.
--s,--scoringFunction <arg>   Scoring function to be used: CMDL, MDL,
+--scoringFunction <arg>   Scoring function to be used: CMDL, MDL,
                               LL and K2. CMDL is used by default.
--n,--numRestarts <int>       Number of random restarts for the greedy 
+                              
+--numRestarts <int>       Number of random restarts for the greedy 
                                hill climber(GHC).
 
--o,--outputFile <file>       Writes output to <file>. If not supplied,
+--outputFile <file>       Writes output to <file>. If not supplied,
                              output is written to file 'ouput.dot'.
 ```
 ## Example
+```
+java -jar learn_cmdl.jar led.csv MDL 10 out_led
+```
+
+
+
+
 
 
 
