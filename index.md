@@ -2,7 +2,7 @@
 
 learn_cmdl is a Java implementation of a score-based learning algorithm for Bayesian networks. A new proposed scoring functions called **Complete minimum description length** is implemented. The program receives a data set with multivariate categorical observations.
 
-# Usage 
+## Usage 
 
 The algorithm receives a .csv file such that:
 -the first row of each column corresponds to the name of an attribute;
@@ -10,7 +10,7 @@ The algorithm receives a .csv file such that:
 
 By executing the following .jar file:
 ```
-`$ java -jar learn_cmdl.jar`
+$ java -jar learn_cmdl.jar
 ```
 
 The available command-line options are the following:
@@ -26,6 +26,8 @@ The available command-line options are the following:
                              output is written to file 'ouput.dot'.
 ```
 ## Example
+
+
 
 
 
