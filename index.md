@@ -40,7 +40,7 @@ java -jar learn_cmdl.jar led.csv CMDL 600 out_led
 ```
 And outputs:
 
-![Image](out_led.pdf)
+![](out_led.pdf =100x20)
 
 
 
