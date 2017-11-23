@@ -1,37 +1,32 @@
-## Welcome to GitHub Pages
+## learn_cmdl
 
-You can use the [editor on GitHub](https://github.com/MargaridanarSousa/learn_cDBN/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+learn_cmdl is a Java implementation of a score-based learning algorithm for Bayesian networks. A new proposed scoring functions called **Complete minimum description length** is implemented. The program receives a data set with multivariate categorical observations.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+# Usage 
 
-### Markdown
+The algorithm receives a .csv file such that:
+-the first row of each column corresponds to the name of an attribute;
+-the other rows correspond to observations of that attribute. 
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+By executing the following .jar file:
+```
+`$ java -jar learn_cmdl.jar`
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+The available command-line options are the following:
+```
+-i,--inputFile <file>        Input CSV file to be used for network
+                              learning.
+-s,--scoringFunction <arg>   Scoring function to be used: CMDL, MDL,
+                              LL and K2. CMDL is used by default.
+-n,--numRestarts <int>       Number of random restarts for the greedy 
+                               hill climber(GHC).
 
-### Jekyll Themes
+-o,--outputFile <file>       Writes output to <file>. If not supplied,
+                             output is written to file 'ouput.dot'.
+```
+## Example
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/MargaridanarSousa/learn_cDBN/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
 
-### Support or Contact
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+
