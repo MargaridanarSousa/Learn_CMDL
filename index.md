@@ -39,8 +39,7 @@ The command to learn the optimal network is:
 java -jar learn_cmdl.jar led.csv CMDL 600 out_led
 ```
 And outputs:
-
-![](out_led.pdf =100x20)
+![drawing](out_led.pdf)
 
 
 
