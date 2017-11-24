@@ -30,7 +30,7 @@ The  command-line options are the following:
 
 Consider the benchmarck LED data set [led.csv](led.csv) with 1000 instances.Taking the following options:
 1. CMDL as scoring function;
-1. 600 random restarts;
+1. 600 random restarts for GHC;
 1. The output file to be output_led.dot.
 
 The command to learn the optimal network is:
@@ -40,7 +40,8 @@ java -jar learn_cmdl.jar led.csv CMDL 600 out_led
 ```
 And outputs the followng structure: 
 
-![My helpful screenshot]({{ "out_led.png" }})
+![network](out_led.png")
+
 
 
 
