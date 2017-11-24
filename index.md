@@ -28,7 +28,7 @@ The  command-line options are the following:
 ```
 ## Example
 
-Consider the benchmarck LED data set [led.csv](led.csv) with 1000 instances.Taking the following options:
+Consider the benchmarck LED data set [led.csv](led_5000.csv) with 1000 instances.Taking the following options:
 1. CMDL as scoring function;
 1. 600 random restarts for GHC;
 1. The output file to be output_led.dot.
