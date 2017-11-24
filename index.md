@@ -40,7 +40,7 @@ java -jar learn_cmdl.jar led.csv CMDL 600 out_led
 ```
 And outputs the followng structure: 
 
-![network](out_led.png")
+![network](out_led.png)
 
 
 
