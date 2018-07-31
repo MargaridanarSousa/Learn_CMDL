@@ -1,6 +1,6 @@
-## learn_cmdl
+## Learn_CMDL
 
-learn_cmdl is a Java implementation of a score-based learning algorithm for Bayesian networks. A new proposed scoring functions for Bayesian networks called **Complete minimum description length** is implemented. The program receives a data set with multivariate categorical observations and outputs the optimal structure, found by the greedy hill climber(GHC).
+Learn_CMDL is a Java implementation of a score-based learning algorithm for Bayesian networks. A new proposed scoring function for Bayesian networks called **Complete minimum description length** is implemented. The program receives a data set with multivariate categorical observations and outputs the optimal structure, found by the greedy hill climber (GHC).
 
 ## Usage 
 
@@ -10,7 +10,7 @@ The algorithm receives a .csv file such that:
 
 By executing the following .jar file:
 ```
-$ java -jar learn_cmdl.jar
+$ java -jar Learn_CMDL.jar
 ```
 
 The  command-line options are the following:
@@ -28,19 +28,19 @@ The  command-line options are the following:
 ```
 ## Example
 
-Consider the benchmarck LED data set [led.csv](led_5000.csv) with 5000 instances.Taking the following options:
+Consider the benchmarck LED data set [led.csv](led_500.csv) with 500 instances.Taking the following options:
 1. CMDL as scoring function;
-1. 600 random restarts for GHC;
+1. 1000 random restarts for GHC;
 1. The output file to be output_led.dot.
 
 The command to learn the optimal network is:
 
 ```
-java -jar learn_cmdl.jar led.csv CMDL 600 out_led
+java -jar learn_cmdl.jar led.csv CMDL 1000 out_cmdl
 ```
 And outputs the following structure: 
 
-![network](out_led.png)
+![network](Led_CMDL.png)
 
 
 
