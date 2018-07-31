@@ -1,6 +1,6 @@
 ## learn_cmdl
 
-learn_cmdl is a Java implementation of a score-based learning algorithm for Bayesian networks. A new proposed scoring functions called **Complete minimum description length** is implemented. The program receives a data set with multivariate categorical observations and outputs the optimal structure, found by the greedy hill climber(GHC).
+learn_cmdl is a Java implementation of a score-based learning algorithm for Bayesian networks. A new proposed scoring functions for Bayesian networks called **Complete minimum description length** is implemented. The program receives a data set with multivariate categorical observations and outputs the optimal structure, found by the greedy hill climber(GHC).
 
 ## Usage 
 
