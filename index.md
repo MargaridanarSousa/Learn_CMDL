@@ -4,7 +4,7 @@ Learn_CMDL is a Java implementation of a score-based learning algorithm for Baye
 
 The program comes packaged as an executable JAR file, already including the required external libraries and can be downloaded [here](Learn_CMDL.jar). The source code can be downloaded [here](Learn_CMDL.zip).
 
-In order to visualize the output Graph in .dot format, download [graphviz](https://graphviz.gitlab.io/download/).
+In order to visualize the output graph in dot format, download [graphviz](https://graphviz.gitlab.io/download/).
 
 
 ## Usage 
