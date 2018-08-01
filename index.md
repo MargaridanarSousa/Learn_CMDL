@@ -41,7 +41,7 @@ Consider the benchmarck LED data set [led_500.csv](led_500.csv) with 500 instanc
 The command to learn the optimal network is:
 
 ```
-java -jar Learn_CMDL.jar led.csv CMDL 1000 out_cmdl
+java -jar Learn_CMDL.jar led_500.csv CMDL 1000 out_cmdl
 ```
 And outputs the following structure: 
 
