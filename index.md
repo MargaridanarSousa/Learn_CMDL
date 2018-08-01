@@ -1,6 +1,8 @@
 ## Learn_CMDL
 
-Learn_CMDL is a Java implementation of a score-based learning algorithm for Bayesian networks. A new proposed scoring function for Bayesian networks called **Complete minimum description length** is implemented. The program receives a data set with multivariate categorical observations and outputs the optimal structure, found by the greedy hill climber (GHC).
+Learn_CMDL is a Java implementation of a score-based learning algorithm for Bayesian networks. A new proposed scoring function for Bayesian networks called **Complete minimum description length** is implemented. The program receives a data set with multivariate categorical observations and outputs the optimal structure, found by the greedy hill climber (GHC). 
+
+The source code is in Learn_CMDL.zip.
 
 ## Usage 
 
