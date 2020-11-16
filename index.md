@@ -28,8 +28,7 @@ The  command-line options are the following:
 --numRestarts <int>       Number of random restarts for the greedy 
                                hill climber(GHC).
 
---outputFile <file>       Writes output to <file>. If not supplied,
-                             output is written to file 'ouput.dot'.
+--outputFile <file>       Writes output to <file>. 
 ```
 ## Example
 
